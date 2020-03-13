@@ -1,0 +1,12 @@
+a .person-photo {
+  width: 25%;
+  height: 27%;
+  border-radius: 50%;
+}
+a .person-name {
+  display: inline-block;
+  font-size: 13px;
+  color: rgb(80, 88, 95);
+  width: 60%;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+.navbar {
+  height: 50px;
+  background-color: #4267b2;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: rgb(4, 5, 59);
+}
+
+li a.active {
+  color: white;
+  background-color: #4caf50;
+}
+.Imag {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.Imag img {
+  width: 250%;
+  height: 250%;
+}
+.searchBarNav {
+  display: block;
+  float: LEFT;
+  margin-top: 16px;
+  width: 500px;
+}
+
+.searchBarNav input {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+}

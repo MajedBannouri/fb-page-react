@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+.vertical-menu {
+  width: 200px;
+  margin-top: 2%;
+  float: left;
+  margin-left: 10%;
+  height: 100%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.vertical-menu a {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #0064a7;
+}
+
+.vertical-menu a.active {
+  background-color: #9390a3;
+}
